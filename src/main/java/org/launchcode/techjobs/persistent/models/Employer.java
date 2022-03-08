@@ -16,9 +16,8 @@ public class Employer extends AbstractEntity {
     @NotBlank(message = "Location is required")
     private String location;
 
-    @JoinColumn
+    @JoinColumn(name = "employer_id")
     @OneToMany
-//            (mappedBy = "employer")
     private final List<Job> jobs= new ArrayList();
 
     public Employer() {

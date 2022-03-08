@@ -18,5 +18,7 @@ WHERE TABLE_NAME = 'job';
 SELECT name FROM employer WHERE location = 'St. Louis City';
 
 -- Part 3: Test it with SQL
+-- Delete job table 
+DROP TABLE job;
 
 -- Part 4: Test it with SQL

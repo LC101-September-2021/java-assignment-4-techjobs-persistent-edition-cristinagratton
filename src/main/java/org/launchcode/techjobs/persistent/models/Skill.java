@@ -7,16 +7,16 @@ import javax.persistence.ManyToMany;
 public class Skill extends AbstractEntity {
 
 //    @ManyToMany
-    private String descriptionOfSkill;
+    private String description;
 
     public Skill() {
     }
 
-    public String getDescriptionOfSkill() {
-        return descriptionOfSkill;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescriptionOfSkill(String descriptionOfSkill) {
-        this.descriptionOfSkill = descriptionOfSkill;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
